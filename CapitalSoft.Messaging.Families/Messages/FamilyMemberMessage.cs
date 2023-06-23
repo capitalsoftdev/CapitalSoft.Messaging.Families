@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapitalSoft.Messaging.Families.Enums;
+using System;
 
 namespace CapitalSoft.Messaging.Families.Messages
 {
@@ -12,5 +13,6 @@ namespace CapitalSoft.Messaging.Families.Messages
         public DateTime? Birthdate { set; get; }
         public Guid BidId { set; get; }
         public int BidNumber { set; get; }
+        public ActionType ActionType { set; get; }
     }
 }

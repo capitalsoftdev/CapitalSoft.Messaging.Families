@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
@@ -7,6 +7,10 @@
         <Description>Messaging with RabbitMq</Description>
         <Copyright>CapitalSoft</Copyright>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <FileVersion>1.0.1</FileVersion>
+        <AssemblyVersion>1.0.1</AssemblyVersion>
+        <Version>1.0.2</Version>
     </PropertyGroup>
 
     <ItemGroup>
